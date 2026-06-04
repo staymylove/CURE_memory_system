@@ -1,0 +1,9 @@
+# Simple Agent Harness - 依赖列表
+
+# 核心依赖（Python标准库足够）
+# 无需额外安装
+
+# 可选依赖
+# openai>=1.0.0  # 如果使用OpenAI API
+# anthropic>=0.7.0  # 如果使用Claude API
+# requests>=2.31.0  # 如果需要HTTP请求
