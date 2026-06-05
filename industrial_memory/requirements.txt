@@ -1,0 +1,26 @@
+# Industrial Memory System - 依赖包
+
+# 核心依赖
+numpy>=1.20.0
+
+# 向量检索（选择其一）
+faiss-cpu>=1.7.0  # CPU版本，适合大多数场景
+# faiss-gpu>=1.7.0  # GPU版本，需要CUDA
+
+# 数据库（可选，默认使用SQLite）
+# psycopg2-binary>=2.9.0  # PostgreSQL
+# pymongo>=4.0.0  # MongoDB
+
+# 缓存（可选）
+# redis>=4.0.0
+
+# Embedding模型（可选，用于实际部署）
+# openai>=1.0.0  # OpenAI embeddings
+# sentence-transformers>=2.0.0  # 本地embedding模型
+
+# 监控（可选）
+# prometheus-client>=0.16.0
+
+# 开发工具
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
